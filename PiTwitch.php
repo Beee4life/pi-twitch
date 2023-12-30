@@ -91,7 +91,7 @@
                         // echo '<pre>'; var_dump($api_url); echo '</pre>'; exit;
                         if ( $api_url ) {
                             $data = $this->pull_data( $api_url, $option_key, $page, $force, false, $params );
-                            // echo '<pre>'; var_dump($data); echo '</pre>'; exit;
+                            echo '<pre>'; var_dump($data); echo '</pre>'; exit;
                         }
                     }
 
