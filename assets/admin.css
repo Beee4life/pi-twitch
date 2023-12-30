@@ -1,0 +1,28 @@
+.sync-type {
+    margin-bottom: 0.5rem;
+}
+
+.twitch table th {
+    padding-right:  1rem;
+    text-align:     left;
+    vertical-align: top;
+}
+
+.twitch table td {
+    padding-right:  1rem;
+    vertical-align: top;
+}
+
+.twitch table.twitch__sync th,
+.twitch table.twitch__sync td {
+    padding-left: 0;
+}
+
+.twitch table.twitch__sync td {
+    height:         2rem;
+    vertical-align: middle;
+}
+
+.twitch input[type="submit"] {
+    margin-top: 0.5rem;
+}
